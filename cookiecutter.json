@@ -1,0 +1,11 @@
+{
+    "project_name": "Hello World",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_desc": "Says Hello to the world!",
+    "project_author": "John Does <john.does@minisoft.com>",
+    "org_github_name": "sam1902",
+    "author_github_username": "sam1902",
+    "project_licence": ["proprietary", "MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3"],
+    "project_start_date": "{% now 'local', '%Y-%m-%d' %}",
+    "version": "0.1.0"
+}
